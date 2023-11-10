@@ -8,19 +8,26 @@
 
 ## Immagine precedente
 
-- rimuove la classe active al elemento "item"
+- rimuove la classe "active" al elemento
 - se la posizione del immagine è maggiore di 0
     - riduce di 1 la posizione corrente
 - altrimenti
     - assegna alla posizione corrente il valore massimo
-- inserisce la classe "active al elemento
+- inserisce la classe "active" al elemento
 
  ## Immagine successiva
 
-- rimuove la classe active al elemento "item"
+- rimuove la classe "active" al elemento
 - se la posizione del immagine minore della quantita delle immagini
     - aumenta di 1 la posizione corrente
 - altrimenti
     - azzera la posizione corrente
-- inserisce la classe "active al elemento
+- inserisce la classe "active" al elemento
+
+ ## Thumbnails
+
+- prende tutti i box e per ognuno
+    - rimuove la classe "active" al elemento
+    - assegna alla posizione corrente il valore del elemento
+    - inserisce la classe "active" al elemento
  
