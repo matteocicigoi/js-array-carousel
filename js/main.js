@@ -60,3 +60,17 @@ next.addEventListener('click', function(){
     itemAll[currentImg].classList.add('active');
     boxAll[currentImg].classList.add('active');
 });
+
+//thumbnails
+//elementi dal dom
+const thumbnailsAll = document.querySelectorAll('.box');
+//tutti i  box
+for(let i = 0; i < thumbnailsAll.length; i++){
+    thumbnailsAll[i].addEventListener('click', function(){
+        itemAll[currentImg].classList.remove('active');
+        boxAll[currentImg].classList.remove('active');
+        currentImg = i;
+        itemAll[currentImg].classList.add('active');
+        boxAll[currentImg].classList.add('active');
+    });
+}
